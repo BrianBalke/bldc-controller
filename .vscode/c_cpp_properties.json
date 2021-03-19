@@ -1,0 +1,35 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/firmware/include",
+                "${workspaceFolder}/common",
+                "${workspaceFolder}/common/include",
+                "${workspaceFolder}/chibios/ext/stm32lib/inc",
+                "${workspaceFolder}/chibios/os/hal/include",
+                "${workspaceFolder}/chibios/os/hal/platforms/STM32F4xx",
+                "${workspaceFolder}/chibios/os/hal/platforms/STM32",
+                "${workspaceFolder}/chibios/os/hal/platforms/STM32/GPIOv2",
+                "${workspaceFolder}/chibios/os/hal/platforms/STM32/I2Cv1",
+                "${workspaceFolder}/chibios/os/hal/platforms/STM32/OTGv1",
+                "${workspaceFolder}/chibios/os/hal/platforms/STM32/RTCv2",
+                "${workspaceFolder}/chibios/os/hal/platforms/STM32/SPIv1",
+                "${workspaceFolder}/chibios/os/hal/platforms/STM32/TIMv1",
+                "${workspaceFolder}/chibios/os/hal/platforms/STM32/USARTv1",
+                "${workspaceFolder}/chibios/os/kernel/include",
+                "${workspaceFolder}/chibios/os/ports/common/ARMCMx/CMSIS/include",
+                "${workspaceFolder}/chibios/os/ports/common/ARMCMx",
+                "${workspaceFolder}/chibios/os/ports/GCC/ARMCMx",
+                "${workspaceFolder}/chibios/os/ports/GCC/ARMCMx/STM32F4xx",
+                "${workspaceFolder}/chibios/test"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++11",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}
